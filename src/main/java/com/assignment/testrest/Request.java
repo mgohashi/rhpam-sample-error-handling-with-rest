@@ -8,20 +8,20 @@ public class Request implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.String pid;
+	private Integer pid;
 
 	public Request() {
 	}
 
-	public java.lang.String getPid() {
+	public java.lang.Integer getPid() {
 		return this.pid;
 	}
 
-	public void setPid(java.lang.String pid) {
+	public void setPid(java.lang.Integer pid) {
 		this.pid = pid;
 	}
 
-	public Request(java.lang.String pid) {
+	public Request(java.lang.Integer pid) {
 		this.pid = pid;
 	}
 
