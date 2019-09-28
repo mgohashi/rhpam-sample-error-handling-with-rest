@@ -50,5 +50,9 @@ public class Response implements java.io.Serializable {
 		this.pid = pid;
 		this.status = status;
 	}
+	
+	public String toString() {
+	    return "Id: " + getId() + ", PID: " + getPid() + ", Status: " + getStatus();
+	}
 
 }
