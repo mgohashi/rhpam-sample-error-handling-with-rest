@@ -6,12 +6,23 @@ package com.assignment.testrest;
 
 public class Request implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Request() {
-    }
+	private java.lang.String pid;
 
+	public Request() {
+	}
 
+	public java.lang.String getPid() {
+		return this.pid;
+	}
 
+	public void setPid(java.lang.String pid) {
+		this.pid = pid;
+	}
+
+	public Request(java.lang.String pid) {
+		this.pid = pid;
+	}
 
 }
