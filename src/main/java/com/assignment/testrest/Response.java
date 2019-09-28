@@ -6,12 +6,47 @@ package com.assignment.testrest;
 
 public class Response implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Response() {
-    }
+	@org.kie.api.definition.type.Label(value = "Id")
+	private java.lang.Integer id;
+	@org.kie.api.definition.type.Label(value = "PID")
+	private java.lang.Integer pid;
+	@org.kie.api.definition.type.Label(value = "Status")
+	private java.lang.Boolean status;
 
+	public Response() {
+	}
 
+	public java.lang.Integer getId() {
+		return this.id;
+	}
 
+	public void setId(java.lang.Integer id) {
+		this.id = id;
+	}
+
+	public java.lang.Integer getPid() {
+		return this.pid;
+	}
+
+	public void setPid(java.lang.Integer pid) {
+		this.pid = pid;
+	}
+
+	public java.lang.Boolean getStatus() {
+		return this.status;
+	}
+
+	public void setStatus(java.lang.Boolean status) {
+		this.status = status;
+	}
+
+	public Response(java.lang.Integer id, java.lang.Integer pid,
+			java.lang.Boolean status) {
+		this.id = id;
+		this.pid = pid;
+		this.status = status;
+	}
 
 }
