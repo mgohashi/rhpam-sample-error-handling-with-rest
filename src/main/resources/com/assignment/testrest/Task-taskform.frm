@@ -1,1 +1,0 @@
-{"id":"a874a1e6-d14b-406e-87ba-9c313e111797","name":"Task-taskform.frm","model":{"taskName":"Task","processId":"TestRest.ITErrorHandling","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
