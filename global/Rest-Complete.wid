@@ -1,7 +1,7 @@
 [
         [
-            "name" : "Rest-Complete",
-            "displayName" : "Rest-Complete",
+            "name" : "RestComplete",
+            "displayName" : "RestComplete",
             "category" : "jbpm-workitems-rest",
             "description" : "",
             "defaultHandler" : "mvel: new org.jbpm.process.workitem.rest.RESTWorkItemHandler()",
