@@ -16,6 +16,12 @@
             <parameters/>
             <name>Rest</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler(classLoader, "TestRest.ITErrorHandling", "COMPLETE")</identifier>
+            <parameters/>
+            <name>Rest-Complete</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
